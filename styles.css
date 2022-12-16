@@ -1,0 +1,115 @@
+.brand-palette, .background-palette {
+  background-color: F8F5F2;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.brand-palette h3, .background-palette h3 {
+  padding: 0 40px;
+  min-width: 100px;
+  max-width: 150px;
+}
+
+h1, h2, h3 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.tile {
+  min-height: 300px;
+  min-width: 190px;
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: -2rem 0 3rem -2rem #000;
+  padding: 1.5rem;
+  border-radius: 16px;
+  flex-direction: column;
+  transition: .2s;
+  margin: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.tile:hover {
+  bottom: 10px;
+  right: 10px;
+}
+
+.brand-palette .tile:hover, .background-palette .tile:hover {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.lightcoral {
+  background-color: #FB8888;
+}
+
+.granitegray {
+  background-color: #626868;
+  display: flex;
+}
+
+.opal {
+  background-color: #ABC8C0;
+  display: flex;
+
+}
+
+.isabelline {
+  background-color: #F8F5F2;
+}
+
+.porcelain {
+  background-color: #F5F5F5;
+}
+
+.typography {
+  background-color: #222525;
+  color: white;
+}
+
+.brand-palette {
+  margin: 20px auto;
+}
+
+.container {
+  margin: 100px auto;
+}
+
+.fonts .tile:hover {
+  font-size: 110%;
+}
+
+.martianmono, .martianmono p{
+  font-family: 'Martian Mono', monospace;
+  background-color: #F5F5F5;
+  color: #222525;
+}
+
+.sourcecodepro, .sourcecodepro p {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #F5F5F5;
+  color: #222525;
+}
+
+.caveat, .caveat p {
+  font-family: 'Caveat', cursive;
+  background-color: #F5F5F5;
+  color: #222525;
+  font-size: 22px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
